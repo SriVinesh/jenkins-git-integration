@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>arti.server.com-snapshots</name>
+        <url>http://192.168.4.214:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>jenkins-git-integration</finalName>
   </build>
