@@ -19,7 +19,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>arti.server.com-snapshots</name>
-        <localRepository>/root/.m2/repository</localRepository>
+        <url>http://192.168.4.221:/root/.m2/repository</url>
     </snapshotRepository>
 </distributionManagement>
   <build>
