@@ -19,7 +19,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>arti.server.com-snapshots</name>
-        <url>http://192.168.4.214:8081/artifactory/libs-snapshot</url>
+        <localRepository>/root/.m2/repository</localRepository></url>
     </snapshotRepository>
 </distributionManagement>
   <build>
